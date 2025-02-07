@@ -9,7 +9,7 @@ app.get('/', (req, res)=>{
     return res.status(200).json({ 
         email: "gbemilekekenny@gmail.com",
         current_datetime: new Date(),
-        github_url: "<https://github.com/yourusername/your-repo>"
+        github_url: "https://github.com/Jhaemis-hack/HNG12-stage0"
     })
 })
 
